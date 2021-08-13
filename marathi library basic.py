@@ -17,6 +17,8 @@ class Marathi:
                    ["ष", "स", "ह", "क्ष", "ज्ञ"]]
 
         dictME = {}
+        with open(eng_dict.txt) as eng:
+            
         dictEM = defaultdict(list)
         marathi_list = []
 
